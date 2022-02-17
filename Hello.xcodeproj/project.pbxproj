@@ -13,6 +13,8 @@
 		050A9F0527BDCD6C00C8C3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050A9F0327BDCD6C00C8C3C1 /* Main.storyboard */; };
 		050A9F0727BDCD6E00C8C3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050A9F0627BDCD6E00C8C3C1 /* Assets.xcassets */; };
 		050A9F0A27BDCD6E00C8C3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050A9F0827BDCD6E00C8C3C1 /* LaunchScreen.storyboard */; };
+		054797DA27BDF15000264378 /* Yushin.png in Resources */ = {isa = PBXBuildFile; fileRef = 054797D927BDF15000264378 /* Yushin.png */; };
+		054797DC27BDF3C900264378 /* App Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 054797DB27BDF3C900264378 /* App Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		050A9F0627BDCD6E00C8C3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		050A9F0927BDCD6E00C8C3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		050A9F0B27BDCD6E00C8C3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054797D927BDF15000264378 /* Yushin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yushin.png; sourceTree = "<group>"; };
+		054797DB27BDF3C900264378 /* App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				050A9EFD27BDCD6C00C8C3C1 /* AppDelegate.swift */,
+				054797D927BDF15000264378 /* Yushin.png */,
+				054797DB27BDF3C900264378 /* App Icon.png */,
 				050A9EFF27BDCD6C00C8C3C1 /* SceneDelegate.swift */,
 				050A9F0127BDCD6C00C8C3C1 /* ViewController.swift */,
 				050A9F0327BDCD6C00C8C3C1 /* Main.storyboard */,
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				050A9F0A27BDCD6E00C8C3C1 /* LaunchScreen.storyboard in Resources */,
+				054797DA27BDF15000264378 /* Yushin.png in Resources */,
 				050A9F0727BDCD6E00C8C3C1 /* Assets.xcassets in Resources */,
 				050A9F0527BDCD6C00C8C3C1 /* Main.storyboard in Resources */,
+				054797DC27BDF3C900264378 /* App Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
