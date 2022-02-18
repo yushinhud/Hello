@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print("gitTest")
     }
 
     @IBAction func btnSend(_ sender: UIButton) {
@@ -26,6 +28,7 @@ class ViewController: UIViewController {
         dateFormatter.dateFormat = "HH:mm:ss:SSS"
         print("Log!! : \(dateFormatter.string(from: Date())) file: \(file) line: \(line) func: \(funcname)")
         print(object)
+        
     }
     
 }
